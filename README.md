@@ -21,13 +21,13 @@ requirements.
 
 ## Configuration Variables
 
-| Variable Name                         | Default Value                | Description                                    |
-| ------------------------------------- | ---------------------------- | ---------------------------------------------- |
-| `ZSH_OLLAMA_MODEL`                    | `llama3`                     | OLLAMA model to use (e.g., `llama3`)           |
-| `ZSH_OLLAMA_COMMANDS_HOTKEY`          | `Ctrl-o`                     | Default shortcut key for triggering the plugin |
-| `ZSH_OLLAMA_COMMANDS`                 | 5                            | Number of command suggestions displayed        |
-| `ZSH_OLLAMA_URL`                      | `http://localhost:11434`     | The URL of OLLAMA server host                  |
-| `ZSH_OLLAMA_COMMANDS_MESSAGE_CONTENT` | See `zsh-ollama-command.zsh` | The prompt fed to the model                    |
+| Variable Name                | Default Value                | Description                                    |
+| ---------------------------- | ---------------------------- | ---------------------------------------------- |
+| `ZSH_OLLAMA_MODEL`           | `llama3`                     | OLLAMA model to use (e.g., `llama3`)           |
+| `ZSH_OLLAMA_COMMANDS_HOTKEY` | `Ctrl-o`                     | Default shortcut key for triggering the plugin |
+| `ZSH_OLLAMA_COMMANDS`        | 5                            | Number of command suggestions displayed        |
+| `ZSH_OLLAMA_URL`             | `http://localhost:11434`     | The URL of OLLAMA server host                  |
+| `ZSH_OLLAMA_PROMPT`          | See `zsh-ollama-command.zsh` | The prompt fed to the model                    |
 
 ## Usage
 
